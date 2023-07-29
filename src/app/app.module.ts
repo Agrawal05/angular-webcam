@@ -3,11 +3,13 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {WebcamModule} from './modules/webcam/webcam.module';
 import {FormsModule} from '@angular/forms';
+import { AngularWebcamComponent } from './angular-webcam/angular-webcam.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AngularWebcamComponent
   ],
   imports: [
     BrowserModule,
